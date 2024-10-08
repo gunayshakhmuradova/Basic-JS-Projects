@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="" href="">
+    <title>Currency Convertor</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Currency Convertor</h1>
+
+        <div class="converter">
+            <div class="input-group">
+                <label for="amount">Amount</label>
+                <input type="text" placeholder="Enter the amount" id="amount"  min="0" step="0.01" required/>
+            </div>
+
+            <div class="input-group">
+                <label for="baseCurrency">Base Currency</label>
+                <select name="baseCurrency" id="baseCurrency">
+                    <option value="USD">USD</option>
+                    <option value="EUR">EUR</option>
+                    <option value="AZN">AZN</option>
+                    <option value="TRY">TRY</option>
+                </select>
+            </div>
+
+            <div class="input-group">
+                <label for="targetCurrency">Target Currency</label>
+                <select name="targetCurrency" id="targetCurrency">
+                    <option value="USD">USD</option>
+                    <option value="EUR">EUR</option>
+                    <option value="AZN">AZN</option>
+                    <option value="TRY">TRY</option>
+                </select>
+            </div>
+
+            <button id="convertBtn">Convert</button>
+        </div>
+
+        <div class="result">
+            <p id="conversionResult"></p>
+        </div>
+    </div>
+    
+ <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  #editor {
+    width: 400px;
+    height: 300px;
+    margin-bottom: 20px;
+  }
+  
+  #preview {
+    width: 400px;
+    height: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    overflow: auto;
+    text-align: left;
+  }

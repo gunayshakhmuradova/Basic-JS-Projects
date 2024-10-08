@@ -1,0 +1,24 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  #timer-label {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #time-left {
+    font-size: 48px;
+  }
+  
+  #start_stop, #reset {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 10px;
+  }
